@@ -21,7 +21,7 @@ class First_Class {
         //Printing outputs to console with formatting
         System.out.printf("%d + %d + %d = %d", 2,3,4,2+3+4).println(); //Formatting integer
         System.out.printf("Print %s", "Testing").println(); //Formatting String
-        System.out.printf("%f, %f, %f", 3.5,4.5,5.6).println(); //Floating point formatting
-        System.out.printf("%f * %f = %f", 3.5,4.5, 3.5 * 4.5);
+        System.out.printf("%f, %f, %f", 3.5,4.5,5.6).println(); //Floating Point formatting
+        System.out.printf("%f * %f = %f", 3.5,4.5, 3.5 * 4.5).println();
     }
 }
