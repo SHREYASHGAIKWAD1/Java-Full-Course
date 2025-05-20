@@ -23,5 +23,11 @@ class First_Class {
         System.out.printf("Print %s", "Testing").println(); //Formatting String
         System.out.printf("%f, %f, %f", 3.5,4.5,5.6).println(); //Floating Point formatting
         System.out.printf("%f * %f = %f", 3.5,4.5, 3.5 * 4.5).println();
+        //Random
+        String a = "Testing";
+        System.out.printf("Print %s", a).println();
+        //Variable Declaration and Assignment
+        int b = 20; int c = 80;
+        System.out.println(Math.max(b,c));
     }
 }
