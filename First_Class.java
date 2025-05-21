@@ -75,7 +75,7 @@ class string {
 class First_Class {
     public static void main(String[] args) {
         //Simply Printing out strings and expressions.
-        System.out.println("Hello World!");
+        System.out.println("Hello World!");   //println to simply print the console in a new line(Use print to avoid the new line!)
         System.out.println("5 * 6 * 7");
         //Printing outputs to console
         System.out.println(5*6);
@@ -92,6 +92,17 @@ class First_Class {
         System.out.println(Math.max(b,c));
         //If variable declared but not assigned, it will give out an error in a running program but in jshell
         // it will assign the declared variable a value of 0 as the current value!
-        int declaredVariable;
+        int declaredVariable; //(Example)
+        //Rules to follow strictly during naming a variable
+        //1. Can only consist of combination of letters, numbers, $ and Underscore(_)
+        int naming_variable$ = 80;
+        //2.Cannot start with a number, will give out an error!
+        int 3test = 110;
+        //3.Cannot be a keyword!
+        int int = 424;
+        //4. No limit on length of identifiers!(Rules 1-4 to be followed strictly!)
+        int dihgirrgirgnkhirngoeirngoiergneirgei = 698;
+        //5. CamelCase
+        int noOfgoals = 30;//(Every first letter is lowercase and then every start's with an uppercase!)
     }
 }
