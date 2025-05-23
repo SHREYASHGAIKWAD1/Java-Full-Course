@@ -103,6 +103,17 @@ class First_Class {
         //4. No limit on length of identifiers!(Rules 1-4 to be followed strictly!)
         int dihgirrgirgnkhirngoeirngoiergneirgei = 698;
         //5. CamelCase
-        int noOfgoals = 30;//(Every first letter is lowercase and then every start's with an uppercase!)
+        int noOfGoals = 30;//(Every first letter is lowercase and then every start's with an uppercase!)
+        short no_Of_Goals;
+        no_Of_Goals++;//Will increase the counter with +1
+        long populationOfTheWorld;
+        populationOfTheWorld++;
+        double average = 0.0;//double is more accurate than float
+        char gradesOfTheStudents = 'A';//char type to store single characters.
+        gradesOfTheStudents = 'B';
+
+        boolean isEven = false;
+        isEven = true;
+
     }
 }
