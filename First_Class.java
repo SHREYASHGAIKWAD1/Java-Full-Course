@@ -124,5 +124,18 @@ class First_Class {
         String num = "12" + "18";
         String nums = "22" + (18 +2);
 
+        int i = 5;
+        i = i + 1;
+        //Increment Operation
+
+        i = i - 1;
+        //Decrement Operation
+
+        i += 20;
+        i -= 2;
+        //Compound Operation
+        ++i;
+        --i;
+        //Also Adds and subtracts integers.
     }
 }
