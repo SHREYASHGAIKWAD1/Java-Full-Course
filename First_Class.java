@@ -114,6 +114,5 @@ class First_Class {
 
         boolean isEven = false;
         isEven = true;
-
     }
 }
