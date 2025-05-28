@@ -90,7 +90,7 @@ class First_Class {
         //Variable Declaration and Assignment
         int b = 20; int c = 80;
         System.out.println(Math.max(b,c));
-        //If variable declared but not assigned, it will give out an error in a running program but in jshell
+        //When variable declared but not assigned, it will give out an error in a running program but in jshell
         // it will assign the declared variable a value of 0 as the current value!
         int declaredVariable; //(Example)
         //Rules to follow strictly during naming a variable
@@ -98,21 +98,31 @@ class First_Class {
         int naming_variable$ = 80;
         //2.Cannot start with a number, will give out an error!
         int 3test = 110;
-        //3.Cannot be a keyword!
+        //3.Cannot be a keyword of the java language!
         int int = 424;
         //4. No limit on length of identifiers!(Rules 1-4 to be followed strictly!)
         int dihgirrgirgnkhirngoeirngoiergneirgei = 698;
-        //5. CamelCase
+        //5. CamelCasing(Good Practice)
         int noOfGoals = 30;//(Every first letter is lowercase and then every start's with an uppercase!)
         short no_Of_Goals;
         no_Of_Goals++;//Will increase the counter with +1
         long populationOfTheWorld;
         populationOfTheWorld++;
+
         double average = 0.0;//double is more accurate than float
+
         char gradesOfTheStudents = 'A';//char type to store single characters.
         gradesOfTheStudents = 'B';
 
-        boolean isEven = false;
+        boolean isEven = false;//Boolean is either True or False!
         isEven = true;
+
+        //String Concatenation
+        String dam = "12" + 1;
+        String Sentence = "Hello " + "World";
+
+        String num = "12" + "18";
+        String nums = "22" + (18 +2);
+
     }
 }
