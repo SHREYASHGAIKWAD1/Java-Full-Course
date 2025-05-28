@@ -136,6 +136,7 @@ class First_Class {
         //Compound Operation
         ++i;
         --i;
+        //Shortcut increment ops
         //Also Adds and subtracts integers.
     }
 }
