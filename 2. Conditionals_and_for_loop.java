@@ -21,5 +21,10 @@ class Conditionals_and_ifStatements {
         if(number%2 == 0) {
             System.out.println("The given integer is Even.");
         }
+        //Multiplication table for 5
+
+        for(i = 1; i <= 10; i++) {
+            System.out.printf("%d * %d = %d", 5,i, 5*i);
+        }
     }
 }
