@@ -40,5 +40,14 @@ class Conditionals_and_ifStatements {
         for(i=1;i<=10;i++) {
             System.out.printf("%d * %d = %d", 10,i,10*i).println();
         }
+
+        //Ex 3. Print numbers from 1 to 10.
+        for(i=1;i<=10;i++) {
+            System.out.println(i);
+        }
+        //Ex 4. Print numbers from 10 to 1.
+        for(i=10;i>=1;i--) {
+            System.out.println(i);
+        }
     }
 }
