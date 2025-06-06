@@ -49,5 +49,15 @@ class Conditionals_and_ifStatements {
         for(i=10;i>=1;i--) {
             System.out.println(i);
         }
+        //Ex 5. Print Squares of first 10 numbers.
+        for(i=1;i<=10;i++) {
+            System.out.println(Math.pow(i,2));
+        }
+        //Ex 6. Print Squares of first 10 Even numbers.
+        for(i=1;i<=20;i++) {
+            if(i%2 == 0) {
+                System.out.println(Math.pow(i,2));
+            }
+        }
     }
 }
