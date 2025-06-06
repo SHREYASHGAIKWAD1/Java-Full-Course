@@ -24,7 +24,21 @@ class Conditionals_and_ifStatements {
         //Multiplication table for 5
 
         for(i = 1; i <= 10; i++) {
-            System.out.printf("%d * %d = %d", 5,i, 5*i);
+            System.out.printf("%d * %d = %d", 5,i, 5*i).println();
+        }
+
+        //Exercises using For Loop in Java.
+        //Ex 1.
+        //Multiplication table for 7
+        for(i=1;i<=10;i++) {
+            System.out.printf("%d * %d = %d", 7,i,7*i).println();
+        }
+        //Ex 2. Table for 6 and 10
+        for(i=1;i<=10;i++) {
+            System.out.printf("%d * %d = %d", 6,i,6*i).println();
+        }
+        for(i=1;i<=10;i++) {
+            System.out.printf("%d * %d = %d", 10,i,10*i).println();
         }
     }
 }
