@@ -59,5 +59,12 @@ class Conditionals_and_ifStatements {
                 System.out.println(Math.pow(i,2));
             }
         }
+        //Ex 7. Print Squares of first 10 odd numbers.
+        for(i=1;i<=20;i++) {
+            if (i % 2 != 0) {
+                System.out.println(Math.pow(i, 2));
+            }
+        }
+
     }
 }
