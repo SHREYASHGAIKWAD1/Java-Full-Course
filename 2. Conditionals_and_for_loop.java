@@ -75,6 +75,26 @@ class methodsInJava {
             System.out.println("Hello World2!");
         }
         //Calling a Method:-
-        sayHelloWorldTwice()
+        sayHelloWorldTwice();
+
+        //Exercises for Methods in java.
+        //Ex 1. Create and call a method named sayHelloWorldThrice.
+
+        void sayHelloWorldThrice() {
+            System.out.println("Hello World1!");
+            System.out.println("Hello World2!");
+            System.out.println("Hello World3!");
+        }
+        sayHelloWorldThrice();
+
+        //Ex 2. Create a method printing four statements.
+
+        void fourStatements() {
+            System.out.println("I've created my first Variable.");
+            System.out.println("I've created my first method.");
+            System.out.println("I've created my first loop.");
+            System.out.println("I'm excited to learn Java!");
+        }
+        fourStatements();
     }
 }
