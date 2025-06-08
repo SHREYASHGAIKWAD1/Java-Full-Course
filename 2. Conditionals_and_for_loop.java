@@ -70,6 +70,11 @@ class Conditionals_and_ifStatements {
 
 class methodsInJava {
     public static void main(String[] args) {
-
+        void sayHelloWorldTwice() {
+            System.out.println("Hello World!");
+            System.out.println("Hello World2!");
+        }
+        //Calling a Method:-
+        sayHelloWorldTwice()
     }
 }
