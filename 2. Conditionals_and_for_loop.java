@@ -89,12 +89,20 @@ class methodsInJava {
 
         //Ex 2. Create a method printing four statements.
 
-        void fourStatements() {
+        void printLearningExperience() {
             System.out.println("I've created my first Variable.");
             System.out.println("I've created my first method.");
             System.out.println("I've created my first loop.");
             System.out.println("I'm excited to learn Java!");
         }
-        fourStatements();
+        printLearningExperience();
+
+        void tableoffive() {
+            for(int i=1;i<=10;i++) {
+                System.out.printf("%d * %d = %d", 5,i, 5*i).println();
+            }
+        }
+        tableoffive();
+
     }
 }
