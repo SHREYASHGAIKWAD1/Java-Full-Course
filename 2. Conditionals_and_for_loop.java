@@ -65,6 +65,11 @@ class Conditionals_and_ifStatements {
                 System.out.println(Math.pow(i, 2));
             }
         }
+    }
+}
+
+class methodsInJava {
+    public static void main(String[] args) {
 
     }
 }
