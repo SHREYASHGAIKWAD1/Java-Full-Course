@@ -121,11 +121,21 @@ class methodsInJava {
                 System.out.println(i);
             }
         }
+        printNumbers(10);
         //Ex 2. Print squares of numbers from 1 to n.
         void printSquares(int num) {
             for(int i=1;i<=num; i++) {
                 System.out.println(Math.pow(i,2));
             }
         }
+        printSquares(10);
+
+        //Multiplication table using a method.
+        void printMultiplicationTable(int num) {
+            for(int i=1; i<=10; i++) {
+                System.out.printf("%d * %d = %d",num,i,num*i).println();
+            }
+        }
+
     }
 }
