@@ -104,5 +104,14 @@ class methodsInJava {
         }
         tableoffive();
 
+        //Using arguments in java methods
+
+        void sayHelloWorld(int noOfTimes) {
+            for(int i=0;i<=noOfTimes;i++) {
+                System.out.println("Hello World!");
+            }
+        }
+        sayHelloWorld(5);
+
     }
 }
