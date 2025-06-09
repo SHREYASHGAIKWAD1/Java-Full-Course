@@ -104,7 +104,7 @@ class methodsInJava {
         }
         tableoffive();
 
-        //Using arguments in java methods
+        //Using arguments in java methods.
 
         void sayHelloWorld(int noOfTimes) {
             for(int i=0;i<=noOfTimes;i++) {
@@ -113,5 +113,19 @@ class methodsInJava {
         }
         sayHelloWorld(5);
 
+        //Exercises for Methods performing a task.
+
+        //Ex 1. Print numbers 1 to n.
+        void printNumbers(int n) {
+            for(int i = 1;i<=n;i++) {
+                System.out.println(i);
+            }
+        }
+        //Ex 2. Print squares of numbers from 1 to n.
+        void printSquares(int num) {
+            for(int i=1;i<=num; i++) {
+                System.out.println(Math.pow(i,2));
+            }
+        }
     }
 }
