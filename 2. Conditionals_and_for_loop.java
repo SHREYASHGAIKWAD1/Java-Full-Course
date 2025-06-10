@@ -143,6 +143,20 @@ class methodsInJava {
             System.out.println(num1 + num2);
         }
 
+        //Returning with java.
+        int sumOf2Numbers(int n1,int n2) {
+            int sum = n1 + n2;
+            return sum;
+        }
+
+        //Exercises for returning wih java.
+        //Ex 1. Sum of three numbers
+
+        int sumOf3Numbers(int n1, int n2, int n3) {
+            int sum = n1 + n2 + n3;
+            return sum;
+        }
+
 
     }
 }
