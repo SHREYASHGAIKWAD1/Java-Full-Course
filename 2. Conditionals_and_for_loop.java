@@ -157,6 +157,11 @@ class methodsInJava {
             return sum;
         }
 
+        //Ex 2. return the third angle of the triangle.
 
+        int thirdAngle(int a1, int a2) {
+            int a3 = 180 - (a1 + a2);
+            return a3;
+        }
     }
 }
