@@ -179,3 +179,24 @@ class Country {
         india.comingSoon();
     }
 }
+
+//Planet class
+
+class Planet {
+    void revolve() {
+        System.out.println("Revolve");
+    }
+    Public static void main(String[] args) {
+        Planet earth = new Planet();
+        Planet mars = new Planet();
+        Planet venus = new Planet();
+        Planet neptune = new Planet();
+        Planet jupiter = new Planet();
+        earth.revolve();
+        mars.revolve();
+        venus.revolve();
+        neptune.revolve();
+        jupiter.revolve();
+    }
+
+}
