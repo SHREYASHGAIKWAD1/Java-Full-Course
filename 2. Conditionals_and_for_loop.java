@@ -165,3 +165,17 @@ class methodsInJava {
         }
     }
 }
+
+//Writing Java code in classes and compiling the code to run it outside Jshell.
+
+//Country Class
+
+class Country {
+    void comingSoon() {
+        System.out.println("Coming Soon!");
+    }
+    Public static void main(String[] args) {
+        Country india = new Country();
+        india.comingSoon();
+    }
+}
