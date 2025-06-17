@@ -28,4 +28,5 @@ public class Book {
         effectiveJava.noOfCopies = 80;
         cleanCode.noOfCopies = 70;
     }
+
 }
