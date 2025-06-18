@@ -2,7 +2,7 @@ package com.oops;
 
 public class Book {
     //State
-    int noOfCopies;
+    private int noOfCopies;
 
     //Behavior
     void open() {
@@ -14,6 +14,9 @@ public class Book {
     void close() {
         System.out.println("Book Closed!");
     }
+    void setCopies(int noOfCopies) {
+        this.noOfCopies = noOfCopies;
+    }
 
     public static void main(String[] args) {
         Book artOfComputerProgramming = new Book();
@@ -24,9 +27,8 @@ public class Book {
         artOfComputerProgramming.read();
         artOfComputerProgramming.close();
 
-        artOfComputerProgramming.noOfCopies = 50;
-        effectiveJava.noOfCopies = 80;
-        cleanCode.noOfCopies = 70;
+        artOfComputerProgramming.setCopies(50);
+        effectiveJava.setCopies(80);
+        cleanCode.setCopies(70);
     }
-
 }
