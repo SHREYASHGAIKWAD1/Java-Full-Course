@@ -14,8 +14,8 @@ public class Book {
     void close() {
         System.out.println("Book Closed!");
     }
-    void setCopies(int noOfCopies) {
-        this.noOfCopies = noOfCopies;
+    void setCopies(int copies) {
+        this.noOfCopies = copies;
     }
 
     public static void main(String[] args) {
