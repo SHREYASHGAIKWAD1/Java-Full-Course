@@ -7,7 +7,8 @@ public class MotorBike {
 
     //Behavior
     void setSpeed(int speed) {
-        this.speed = speed;
+        if(speed > 0)
+            this.speed = speed;
     }
 
     int getSpeed() {
