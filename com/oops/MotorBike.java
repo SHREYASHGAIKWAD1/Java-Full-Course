@@ -19,4 +19,8 @@ public class MotorBike {
         if(speed > 0)
             this.speed = speed;
     }
+
+    public void increaseSpeed(int howMuch) {
+        this.speed = this.speed + howMuch;
+    }
 }
