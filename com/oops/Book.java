@@ -1,10 +1,10 @@
 package com.oops;
 
 public class Book {
-    //State
-    private int noOfCopies;
+    //State---------------------------------------------------------------------------------------
+    private int noOfCopies; //Member variable
 
-    //Behavior
+    //Behavior------------------------------------------------------------------------------------
     void open() {
         System.out.println("Opened the book.");
     }
@@ -14,21 +14,19 @@ public class Book {
     void close() {
         System.out.println("Book Closed!");
     }
-    void setCopies(int copies) {
-        this.noOfCopies = copies;
+    void setCopies(int copies) {  //Local variable
+        if(copies > 0)
+            this.noOfCopies = copies;
+    }
+    int getCopies() {
+        return this.noOfCopies;
     }
 
-    public static void main(String[] args) {
-        Book artOfComputerProgramming = new Book();
-        Book effectiveJava = new Book();
-        Book cleanCode = new Book();
+    void increaseCopies(int incCop) {
+        setCopies(this.noOfCopies + incCop);
+    }
 
-        artOfComputerProgramming.open();
-        artOfComputerProgramming.read();
-        artOfComputerProgramming.close();
-
-        artOfComputerProgramming.setCopies(50);
-        effectiveJava.setCopies(80);
-        cleanCode.setCopies(70);
+    void decreaseCopies(int decCop) {
+        setCopies(this.noOfCopies - decCop);
     }
 }
