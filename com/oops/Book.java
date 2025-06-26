@@ -5,6 +5,11 @@ public class Book {
     private int noOfCopies; //Member variable
 
     //Behavior------------------------------------------------------------------------------------
+
+    Book(int noOfCopies) {
+        this.noOfCopies = noOfCopies;
+    }
+
     void open() {
         System.out.println("Opened the book.");
     }
