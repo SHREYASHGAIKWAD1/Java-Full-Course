@@ -3,8 +3,11 @@ package com.oops;
 public class MotorBikeRunner {
 
     public static void main(String[] args) {
-        MotorBike ducati = new MotorBike();
-        MotorBike honda = new MotorBike();
+        MotorBike ducati = new MotorBike(100);
+        MotorBike honda = new MotorBike(200);
+
+        System.out.println(ducati.getSpeed());
+        System.out.println(honda.getSpeed());
 
         ducati.start();
         honda.start();
@@ -41,4 +44,5 @@ public class MotorBikeRunner {
     }
 
 }
+
 

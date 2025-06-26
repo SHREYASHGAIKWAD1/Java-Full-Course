@@ -7,6 +7,10 @@ public class MotorBike {
 
     //Behavior
 
+    MotorBike(int speed) {
+        this.speed = speed;
+    }
+
     void start() {
         System.out.println("Bike Started!");
     }
@@ -28,4 +32,5 @@ public class MotorBike {
         setSpeed(this.speed - howMuch);
     }
 }
+
 
