@@ -6,7 +6,7 @@ public class Book {
 
     //Behavior------------------------------------------------------------------------------------
 
-    Book(int noOfCopies) {
+    public Book(int noOfCopies) {
         this.noOfCopies = noOfCopies;
     }
 

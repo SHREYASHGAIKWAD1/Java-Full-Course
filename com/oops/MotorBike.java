@@ -7,7 +7,10 @@ public class MotorBike {
 
     //Behavior
 
-    MotorBike(int speed) {
+    MotorBike(){
+    }
+
+    public MotorBike(int speed) {
         this.speed = speed;
     }
 
@@ -32,5 +35,3 @@ public class MotorBike {
         setSpeed(this.speed - howMuch);
     }
 }
-
-
