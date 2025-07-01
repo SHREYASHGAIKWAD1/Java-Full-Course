@@ -8,9 +8,10 @@ public class MotorBike {
     //Behavior
 
     MotorBike(){
+        this(5);
     }
 
-    public MotorBike(int speed) {
+    MotorBike(int speed) {
         this.speed = speed;
     }
 
