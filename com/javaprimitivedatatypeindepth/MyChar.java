@@ -18,16 +18,31 @@ public class MyChar {
     }
 
     public boolean isVowel() {
-        if(ch == 'a'|| ch == 'e'|| ch == 'i'
-                || ch == 'o'|| ch == 'u' || ch == 'A' || ch == 'E'
-                || ch == 'I' || ch == 'O' || ch == 'U') {
+        if(Character.toUpperCase(ch) == 'A' || Character.toUpperCase(ch) == 'E'|| Character.toUpperCase(ch) == 'I'
+                || Character.toUpperCase(ch) == 'O'|| Character.toUpperCase(ch) == 'U') {
             return true;
         }
         return false;
     }
 
-    public boolean isNumber() {
-        if(ch == )
-            return null;
+    public boolean isConsonant() {
+        if(!isVowel() && isAlphabet()) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isDigit() {
+        if(ch>=48 && ch<=57) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isAlphabet() {
+        if(ch>=97 && ch<=122 || ch>=65 && ch<=90) {
+            return true;
+        }
+        return false;
     }
 }
