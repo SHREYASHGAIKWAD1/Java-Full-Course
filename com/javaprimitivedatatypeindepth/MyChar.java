@@ -40,9 +40,18 @@ public class MyChar {
     }
 
     public boolean isAlphabet() {
-        if(ch>=97 && ch<=122 || ch>=65 && ch<=90) {
-            return true;
+        return ch >= 97 && ch <= 122 || ch >= 65 && ch <= 90;
+    }
+
+    public static void printLowerCaseAlphabets() {
+        for(char ch = 'a'; ch <= 'z'; ch++) {
+            System.out.println(ch);
         }
-        return false;
+    }
+
+    public static void printUpperCaseAlphabets() {
+        for(char ch = 'A'; ch <= 'Z'; ch++) {
+            System.out.println(ch);
+        }
     }
 }
