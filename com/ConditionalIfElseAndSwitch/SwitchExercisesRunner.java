@@ -17,9 +17,9 @@ public class SwitchExercisesRunner {
     public static boolean isWeekDay(int dayNumber) {
         switch (dayNumber) {
             case 0:
-                return false;
-            case 6:
 
+            case 6:
+                return false;
             case 1:
 
             case 2:
