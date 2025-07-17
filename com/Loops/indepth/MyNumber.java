@@ -39,10 +39,22 @@ public class MyNumber {
             return 0;
         }
 
-        for (int i = 1; i < this.number; i++) {
+        for (int i = 2; i < this.number; i++) {
             if (this.number%i == 0) {
                 divSum += i;
             }
         }
         return divSum;
     }
+
+    public void printANumberTriangle() {
+        for (int i = 1; i <= this.number; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+
+            System.out.println();
+        }
+    }
+}
+
