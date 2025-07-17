@@ -20,3 +20,16 @@ public class MyNumber {
 
         return true;
     }
+
+    public int sumUptoN() {
+        int sum = 0;
+        if (this.number <= 0 ) {
+            return 0;
+        }
+
+        for (int i = 0; i <= this.number; i++) {
+            sum = sum + i;
+        }
+        return sum;
+    }
+
