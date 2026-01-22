@@ -2,7 +2,7 @@ package com.JavaModularization2ServiceJar.sorting.utility;
 
 import java.util.List;
 
-import com.Sorting.Algorithm.BubbleSort;
+import com.sorting.algorithm.BubbleSort;
 
 public class MySortingUtil {
 	
