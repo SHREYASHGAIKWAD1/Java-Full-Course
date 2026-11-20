@@ -18,6 +18,4 @@ public class StringRunner {
             System.out.print(daysOfWeek[i] + " ");
         }
     }
-
-
 }
